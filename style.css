@@ -15,7 +15,7 @@ html {
 }
 body {
   height: 100vh;
-  background-color: var(--dark-grayish-blue);
+  background-color: var(--dark-blue);
   font-family: "Manrope", sans-serif;
   display: flex;
   align-items: center;
@@ -23,8 +23,7 @@ body {
 }
 .container {
   width: 50rem;
-  height: 25rem;
-  background-color: var(--grayish-blue);
+  background-color: var(--dark-grayish-blue);
   border-radius: 0.7rem;
   -webkit-border-radius: 0.7rem;
   -moz-border-radius: 0.7rem;
@@ -75,20 +74,11 @@ body {
 .divider {
   display: block;
   width: 100%;
+  padding-bottom: 2rem;
 }
 @media only screen and (max-width: 35rem) {
   .container {
     width: 35rem;
-    height: 30rem;
-    background-color: var(--grayish-blue);
-    border-radius: 0.7rem;
-    -webkit-border-radius: 0.7rem;
-    -moz-border-radius: 0.7rem;
-    -ms-border-radius: 0.7rem;
-    -o-border-radius: 0.7rem;
-    padding: 4rem;
-    text-align: center;
-    position: relative;
   }
   .btn {
     left: calc((35rem - 6rem) / 2);
